@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+#main-container {
+  width: 100vw;
+}
+
+#navbar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #e0ebe8;
+  padding: 2em;
+  width: 100vw;
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #e0ebe8;
+  width: 20vw;
+  margin-right: 3em;
+}
+
+#navbar li {
+  list-style: none;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #008080;
+}
+
+#navbar h1 {
+  color: #008080;
+  margin-left: 2em;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background: #e0ebe8;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+#welcome-section p {
+  color: #008080;
+}
+
+#projects ul li img {
+  width: 20em;
+  height: 180px;
+}
+
+.ptitle {
+  font-size: 2em;
+  color: #008080;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-project {
+  border: .5px solid #008080;
+  margin: 2em;
+  width: 20em;
+  padding-top: 1em;
+  flex: 0 30%;
+}
+
+#projects li {
+  list-style: none;
+}
+
+#projects a {
+  text-decoration: none;
+  color: #008080;
+}
+
+footer {
+  background: #22313F;
+  color: white;
+  padding: 1em;
+}
+
+footer p {
+  margin-top: 1em
+}
+
+@media(max-width:663px) {
+  #navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e0ebe8;
+    width: 100vw;
+  }
+  #navbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e0ebe8;
+    width: 20vw;
+  }
+}
+
+#contact {
+  height: 100vh;
+  width: 100vw;
+}
+
+#contact-section {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  background: #c8f7c5;
+}
+
+#contact-section a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact-section p {
+  margin-bottom: 1em;
+}
+
+/*.circle{
+height:4em;
+  width:4em;
+  background:#ebebeb;
+  border-radius:50%;
+  border:1px solid black;
+  align-self:center;
+}
+*/
+
+.btn {
+  background: #eee;
+  border: 1px solid black;
+  padding: .5em 3em .5em 3em;
+  border-radius: .3em;
+  cursor: pointer;
+}
